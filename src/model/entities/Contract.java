@@ -39,6 +39,10 @@ public class Contract {
 		return totalValue;
 	}
 	
+	public List<Installment> getInstallments() {
+		return installments;
+	}
+	
 	public void adicionarContrato(Installment installment) {
 		installments.add(installment);
 	}
